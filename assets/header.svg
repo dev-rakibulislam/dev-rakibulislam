@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#00f5a0"><animate attributeName="stop-color" values="#00f5a0;#00d9f5;#a855f7;#00f5a0" dur="10s" repeatCount="indefinite"/></stop>
+<stop offset="0.5" stop-color="#00d9f5"/>
+<stop offset="1" stop-color="#6a11cb"><animate attributeName="stop-color" values="#6a11cb;#00f5a0;#6a11cb" dur="10s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="tx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9fff0"/></linearGradient>
+<clipPath id="r"><rect width="1000" height="260" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+<rect width="1000" height="260" fill="url(#bg)"/>
+<rect width="1000" height="260" fill="#0d1117" opacity="0.62"/>
+<circle cx="120" cy="60" r="70" fill="#00f5a0" opacity="0.12"><animate attributeName="cy" values="60;90;60" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="880" cy="70" r="90" fill="#a855f7" opacity="0.16"><animate attributeName="cy" values="70;40;70" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="200" r="50" fill="#00d9f5" opacity="0.12"><animate attributeName="cx" values="700;740;700" dur="5s" repeatCount="indefinite"/></circle>
+<g fill="#fff">
+<circle cx="200" cy="40" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="420" cy="30" r="1.6"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="610" cy="55" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="800" cy="35" r="1.8"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="930" cy="120" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="70" cy="150" r="1.8"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+</g>
+<g>
+<path d="M0 205 Q125 175 250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 V260 H0 Z" fill="#fff" opacity="0.07"><animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="12s" repeatCount="indefinite"/></path>
+<path d="M0 220 Q125 195 250 220 T500 220 T750 220 T1000 220 T1250 220 T1500 220 V260 H0 Z" fill="#00d9f5" opacity="0.12"><animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="9s" repeatCount="indefinite"/></path>
+</g>
+<text x="500" y="125" text-anchor="middle" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="56" font-weight="800" letter-spacing="3" fill="url(#tx)">MD. RAKIBUL ISLAM
+<animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/></text>
+<text x="500" y="170" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" font-size="20" fill="#00f5a0" letter-spacing="1">Web Developer  ·  MERN Stack  ·  Problem Solver
+<animate attributeName="opacity" values="0;1" begin="0.6s" dur="1.2s" fill="freeze"/></text>
+</g>
+</svg>
